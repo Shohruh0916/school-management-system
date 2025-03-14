@@ -1,4 +1,6 @@
- public class School {
+package schoolManagementSystem_V1;
+
+public class School {
         private Teacher[] teachers;
         private Student[] students;
         private int teachersCount=0;

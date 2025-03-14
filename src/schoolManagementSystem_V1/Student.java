@@ -1,3 +1,5 @@
+package schoolManagementSystem_V1;
+
 public class Student {
         private int id;
         private String firstName;
