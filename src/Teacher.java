@@ -15,7 +15,6 @@ public class Teacher {
             this.salaryEarned=0.0;
 
         }
-
         public int getId() {
             return id;
         }
