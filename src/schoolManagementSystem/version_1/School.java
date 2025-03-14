@@ -1,4 +1,4 @@
-package schoolManagementSystem.Version_1;
+package schoolManagementSystem.version_1;
 
 public class School {
         private Teacher[] teachers;

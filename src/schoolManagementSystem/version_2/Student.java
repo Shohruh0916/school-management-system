@@ -1,4 +1,4 @@
-package schoolManagementSystem.Version_2;
+package schoolManagementSystem.version_2;
 
 public class Student {
     private int id;

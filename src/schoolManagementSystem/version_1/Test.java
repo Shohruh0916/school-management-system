@@ -1,4 +1,4 @@
-package schoolManagementSystem.Version_2;
+package schoolManagementSystem.version_1;
 
 public class Test {
     public static void main(String[] args) {
@@ -19,25 +19,28 @@ public class Test {
         school.addStudent(student2);
         school.addStudent(student3);
 
-
-        System.out.println("Earned money:$"+school.getTotolMonayEarned());
-        System.out.println("Spent money:$"+school.getTotolMonaySpent());
+        System.out.println("Earned money: $"+school.getTotalMoneyEarned());
+        System.out.println("Spend money: $"+school.getToatalMoneySpent());
+        System.out.println();
 
         student1.pay(5000);
-        System.out.println(student1.getName()+" remained fees:$ "+student1.getRemainingFees());
+        System.out.println(student1.getName()+" remaining fees: $"+student1.getRemainingFees());
 
-        teacher1.receiveSalary();
+        teacher1.receivSalary();
 
-        System.out.println("Earned money:$ "+school.getTotolMonayEarned());
-        System.out.println("Spent money:$ "+school.getTotolMonaySpent());
+        System.out.println("Earned money: $"+school.getTotalMoneyEarned());
+        System.out.println("Spend money: $"+school.getToatalMoneySpent());
         System.out.println();
 
         student2.pay(6000);
-        System.out.println(student2.getName()+" remained fees:$ "+student2.getRemainingFees());
+        System.out.println(student2.getName()+" remaining fees: $"+student2.getRemainingFees());
 
-        teacher2.receiveSalary();
+        teacher2.receivSalary();
 
-        System.out.println("Earned money:$ "+school.getTotolMonayEarned());
-        System.out.println("Spent money:$ "+school.getTotolMonaySpent());
+        System.out.println("Earned money: $"+school.getTotalMoneyEarned());
+        System.out.println("Spend money: $"+school.getToatalMoneySpent());
+        System.out.println();
+
+
     }
 }
