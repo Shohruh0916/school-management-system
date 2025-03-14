@@ -7,6 +7,7 @@ public class Teacher {
         School school;
 
 
+
         public Teacher(int id, String firstName, String lastName, double salary) {
             this.id = id;
             this.firstName = firstName;

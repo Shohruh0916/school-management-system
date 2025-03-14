@@ -39,5 +39,6 @@ public class Main {
         System.out.println("Spend money: $"+school.getToatalMoneySpent());
         System.out.println();
 
+
     }
 }
