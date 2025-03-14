@@ -13,8 +13,8 @@ public class StudentList {
         students=new Student[CAPASITY];
     }
 
-    public StudentList(int COPOSITY_size){
-        students=new Student[COPOSITY_size];
+    public StudentList(int CAPASITY_size){
+        students=new Student[CAPASITY_size];
     }
 
     public Student get(int index){

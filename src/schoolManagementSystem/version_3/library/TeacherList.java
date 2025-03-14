@@ -13,8 +13,8 @@ public class TeacherList {
         teachers=new Teacher[CAPASITY];
     }
 
-    public TeacherList(int COPOSITY_size){
-        teachers=new Teacher[COPOSITY_size];
+    public TeacherList(int CAPASITY_size){
+        teachers=new Teacher[CAPASITY_size];
     }
 
     public Teacher get(int index){
