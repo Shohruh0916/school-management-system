@@ -7,7 +7,7 @@ public class School {
         private int studentsCount=0;
 
         public School(){
-            this.teachers=new Teacher[10];
+            this.teachers =new Teacher[10];
             this.students=new Student[10];
         }
 

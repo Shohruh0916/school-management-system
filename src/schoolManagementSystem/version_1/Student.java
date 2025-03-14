@@ -10,7 +10,7 @@ public class Student {
         private School school;
 
         public Student(int id, String firstName, String lastName, int grade, double feesTotal){
-            this.id=id;
+            this. id=id;
             this.firstName=firstName;
             this.lastName=lastName;
             this.grade=grade;

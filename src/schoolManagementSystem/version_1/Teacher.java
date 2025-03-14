@@ -38,7 +38,7 @@ public class Teacher {
             this.salary = salary;
         }
 
-        String getName(){
+        String getName() {
             return firstName+" "+lastName;
         }
 
