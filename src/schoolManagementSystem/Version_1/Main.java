@@ -1,4 +1,4 @@
-package schoolManagementSystem_V1;
+package schoolManagementSystem.Version_1;
 
 public class Main {
     public static void main(String[] args) {

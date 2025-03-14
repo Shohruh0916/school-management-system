@@ -1,4 +1,4 @@
-package schoolManagementSystem_V1;
+package schoolManagementSystem.Version_1;
 
 public class School {
         private Teacher[] teachers;
@@ -44,4 +44,5 @@ public class School {
         public void addStudent(Student student){
             students[studentsCount++]=student;
         }
+
 }
