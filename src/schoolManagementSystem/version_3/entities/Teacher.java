@@ -1,4 +1,5 @@
-package schoolManagementSystem.version_2;
+package schoolManagementSystem.version_3.entities;
+
 
 public class Teacher {
     private int id;
@@ -8,11 +9,11 @@ public class Teacher {
     private School school;
     private double salaryEarned;
 
-    public Teacher(int id, String firstName, String lastName, double salary) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.salary = salary;
+    public Teacher(int id, String firstName, String lastName, double salary){
+        this.id=id;
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.salary=salary;
     }
 
     public void setSchool(School school) {
@@ -39,8 +40,8 @@ public class Teacher {
         this.salary = salary;
     }
 
-    public String getName() {
-        return getFirstName() + " " + getLastName();
+    public String getName(){
+        return getFirstName()+" "+getLastName();
     }
 
     public School getSchool() {
@@ -51,8 +52,8 @@ public class Teacher {
         return salaryEarned;
     }
 
-    public void receiveSalary() {
-        salaryEarned += salary;
+    public void receiveSalary(){
+        salaryEarned+=salary;
     }
 
     @Override
